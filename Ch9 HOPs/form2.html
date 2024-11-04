@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"], input[type="reset"] {
+            margin-top: 10px;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="get">
+        First Name: <input type="text" name="fname" id="fname"><br><br>
+        Last Name: <input type="text" name="lname" id="lname"><br><br>
+
+        E-mail: <input type="email" name="email" id="email"><br><br>
+
+        Comments:<br>
+        <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Contact">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        fieldset {
+            width: 320px;
+            border: 2px ridge #FF0000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        legend {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: bold;
+        }
+
+        label {
+            font-family: Arial, sans-serif;
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"], input[type="reset"] {
+            margin-top: 10px;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Customer Information</legend>
+            
+            <label>First Name: <input type="text" name="fname" id="fname"></label><br>
+
+            <label>Last Name: <input type="text" name="lname" id="lname"></label><br>
+
+            <label>E-mail: <input type="email" name="email" id="email"></label><br>
+        </fieldset>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Contact">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

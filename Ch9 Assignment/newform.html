@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Form</title>
+</head>
+<body>
+    <form action="http://webdevfoundations.net/scripts/mydemo.asp" method="post">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" maxlength="30"><br><br>
+
+        <p>Vote for your favorite day of the week:</p>
+        <input type="radio" id="monday" name="fav_day" value="Monday">
+        <label for="monday">Monday</label><br>
+        <input type="radio" id="tuesday" name="fav_day" value="Tuesday">
+        <label for="tuesday">Tuesday</label><br>
+        <input type="radio" id="wednesday" name="fav_day" value="Wednesday">
+        <label for="wednesday">Wednesday</label><br>
+        <input type="radio" id="thursday" name="fav_day" value="Thursday">
+        <label for="thursday">Thursday</label><br>
+        <input type="radio" id="friday" name="fav_day" value="Friday">
+        <label for="friday">Friday</label><br>
+        <input type="radio" id="saturday" name="fav_day" value="Saturday">
+        <label for="saturday">Saturday</label><br>
+        <input type="radio" id="sunday" name="fav_day" value="Sunday">
+        <label for="sunday">Sunday</label><br><br>
+
+        <label for="social">Favorite Social Networking Site:</label>
+        <select id="social" name="social">
+            <option value="facebook">Facebook</option>
+            <option value="instagram">Instagram</option>
+            <option value="twitter">Twitter</option>
+            <option value="linkedin">LinkedIn</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="addressline1">Address Line 1:</label>
+            <input type="text" id="addressline1" name="addressline1"><br><br>
+            <label for="addressline2">Address Line 2:</label>
+            <input type="text" id="addressline2" name="addressline2"><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br><br>
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip"><br><br>
+        </fieldset><br>
+
+        <input type="image" src="signup.gif" alt="Sign Up" name="signup_button"><br><br>
+
+        <input type="hidden" name="userid" value="">
+
+        <label for="pword">Password:</label>
+        <input type="password" id="pword" name="pword"><br><br>
+
+    </form>
+</body>
+</html>
