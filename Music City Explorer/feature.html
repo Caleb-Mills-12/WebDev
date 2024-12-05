@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Experiences | Music City Explorer</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+        header, footer { background-color: #1e212d; color: white; text-align: center; padding: 20px 0; }
+        nav ul { list-style: none; background-color: #333; padding: 0; margin: 0; overflow: hidden; }
+        nav ul li { float: left; }
+        nav ul li a { color: white; padding: 14px 16px; display: block; text-decoration: none; }
+        nav ul li a:hover { background-color: #575757; }
+        main { padding: 20px; }
+        .feature-container { display: flex; flex-wrap: wrap; gap: 20px; }
+        .feature-item { background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 15px; flex: 1 1 calc(33.333% - 20px); }
+        .feature-item img { max-width: 100%; border-radius: 8px; }
+        .feature-item h3 { color: #333; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Featured Experiences</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Tours</a></li>
+            <li><a href="feature.html">Experiences</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="feature-container">
+            <div class="feature-item">
+                <img src="images/live-music.jpg" alt="Live Music" width="256" height="170">
+                <h3>Live Music Events</h3>
+                <p>Experience the best live music in Nashville with exclusive access to iconic venues.</p>
+            </div>
+            <div class="feature-item">
+                <img src="images/food-tour.jpg" alt="Food Tour">
+                <h3>Culinary Adventures</h3>
+                <p>Embark on a tasting journey featuring Nashville’s signature dishes and hidden gems.</p>
+            </div>
+            <div class="feature-item">
+                <img src="images/bike-tour.png" alt="Bike Tour" width="256" height="170">
+                <h3>Scenic Bike Rides</h3>
+                <p>Enjoy the beautiful sights of Nashville with our scenic bike tours tailored for all levels.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Music City Explorer. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
